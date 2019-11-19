@@ -21,6 +21,19 @@
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
   </div>
+  <div class="px-6 py-4">
+      <div class="btn md:inline-block md:mt-0 text-gray-600 hover:text-purple-900">
+       <a href="#responsive-header" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-paint-brush text-gray-400"></i> Create
+       </a>
+        <div class="dropdown-menu mt-5 shadow-lg" aria-labelledby="dropdownMenuButton">
+          <a class="block p-2" href="{{route('slide-create')}}"><i class="fas fa-plus text-green-600"></i> Slide</a>
+          <a class="block p-2" href="{{route('chapter-create')}}"><i class="fas fa-plus text-green-600"></i> Chapter</a>
+          <a class="block p-2" href="{{route('module-create')}}"><i class="fas fa-plus text-green-600"></i> Modules</a>
+          <a class="block p-2" href="{{route('packet-create')}}"><i class="fas fa-plus text-green-600"></i> Outreach Packet</a>
+        </div>
+      </div>
+  </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
