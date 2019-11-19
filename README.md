@@ -5,4 +5,4 @@ This is a simple quick proof of concept that takes the Bootstrap JS (via CDN) an
 
 Check it out http://scottgoehringer.com/tailwind-and-boots/
 
-I'll see what other's think and consider adding in the other JS features that Bootstrap offers out of the box.  Maybe even some basic Tailwind utilities... for the example above I only added the basics to ensure things stay "utility first".
+I'll see what others think and consider adding in the other JS features that Bootstrap offers out of the box.  Maybe even some basic Tailwind utilities... for the example above I only added the basics to ensure things stay "utility first".
