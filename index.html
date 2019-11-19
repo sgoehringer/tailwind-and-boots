@@ -33,12 +33,6 @@
 
         .dropdown-menu.show {
           display: inline-block;
-          background-color: #fff;
-          border-radius: 0.25rem;
-          border-width: 1px;
-          border-color: #cbd5e0;
-          border-style: solid;
-          padding: 0.5rem;
         }
 
         .dropdown-menu {
@@ -71,7 +65,7 @@
        <a href="#responsive-header" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-paint-brush text-gray-400"></i> Create
        </a>
-        <div class="dropdown-menu mt-5 shadow-lg" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu mt-2 shadow-lg inline-block bg-white rounded border border-gray-400 border-solid p-2" aria-labelledby="dropdownMenuButton">
           <a class="block p-2" href="{{route('slide-create')}}"><i class="fas fa-plus text-green-600"></i> Slide</a>
           <a class="block p-2" href="{{route('chapter-create')}}"><i class="fas fa-plus text-green-600"></i> Chapter</a>
           <a class="block p-2" href="{{route('module-create')}}"><i class="fas fa-plus text-green-600"></i> Modules</a>
